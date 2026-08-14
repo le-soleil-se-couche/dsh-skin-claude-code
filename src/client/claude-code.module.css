@@ -1,0 +1,208 @@
+/* Claude Code skin — scoped under body[data-dsh-claude-code].
+   Palette adopted from the owner's Codex theme (codex-theme-v1):
+   accent #da7756 · surface #f5f3ee · ink #1d1b16 · ui 思源宋体 VF · code SF Mono.
+   Dark variant: body[data-dsh-claude-code][data-ds-dark-theme]. */
+
+body[data-dsh-claude-code] {
+  /* fonts — UI serif (Source Han Serif) + SF Mono for code */
+  --dsw-font-family: "思源宋体 VF", "Source Han Serif SC VF", "思源宋体", "Songti SC", serif;
+  --ds-font-family-code: "SF Mono", "SFMono-Regular", Menlo, Consolas, monospace;
+
+  /* brand / accent (terracotta #DA7756) */
+  --dsw-alias-brand-primary: #da7756;
+  --dsw-alias-brand-primary-invert: #fffdf9;
+  --dsw-alias-brand-primary-new-colorprimary-new-color: #da7756;
+  --dsw-alias-brand-text: #a95137;
+
+  /* semantic colors (Codex theme semanticColors) */
+  --dsw-alias-state-success-primary: #00c853;
+  --dsw-alias-state-error-primary: #ff5f38;
+  --dsw-alias-state-warn-primary: #cc7d5e;
+
+  /* warm-cream background hierarchy */
+  --dsw-alias-bg-base: #f5f3ee;
+  --dsw-alias-bg-layer-1: #f1eee8;
+  --dsw-alias-bg-layer-2: #ece8e0;
+  --dsw-alias-bg-layer-3: #e5e0d7;
+
+  /* warm-ink text hierarchy */
+  --dsw-alias-label-primary: #1d1b16;
+  --dsw-alias-label-primary-foreground: #1d1b16;
+  --dsw-alias-label-primary-bluish: #1d1b16;
+  --dsw-alias-label-primary-dimmed: #4a453c;
+  --dsw-alias-label-primary-inverted: #f5f3ee;
+  --dsw-alias-label-dimmed: #6e675e;
+  --dsw-alias-label-caption: #999087;
+
+  /* warm borders */
+  --dsw-alias-border-l1: #d8d2c9;
+  --dsw-alias-border-l2: #cfc7bc;
+  --dsw-alias-border-l3: #c0b5a8;
+  --dsw-alias-border-l4: #b0a494;
+  --dsw-alias-border-inverted: #1d1b16;
+  --dsw-alias-border-inverted2: #1d1b16;
+
+  /* interactive */
+  --dsw-alias-interactive-bg-hover: #e8e2d9;
+  --dsw-alias-interactive-bg-active: #ded6cc;
+  --dsw-alias-interactive-bg-hover-accent: rgba(218, 119, 86, 0.14);
+  --dsw-alias-interactive-bg-hover-solid: rgba(218, 119, 86, 0.22);
+
+  /* buttons */
+  --dsw-alias-button-primary-fill: #da7756;
+  --dsw-alias-button-primary-hover: #c9694d;
+  --dsw-alias-button-primary-dimmed: rgba(218, 119, 86, 0.22);
+  --dsw-alias-button-elevated-fill: #f9f7f3;
+  --dsw-alias-button-floating-fill: #f9f7f3;
+  --dsw-alias-button-tool-bar-fill: #f5f3ee;
+  --dsw-alias-button-contrast-fill: #1d1b16;
+
+  /* body surface */
+  color: #1d1b16;
+  background-color: #f5f3ee;
+
+  /* room for the fixed title bar */
+  padding-top: 32px;
+  box-sizing: border-box;
+}
+
+/* dark variant: warm charcoal, cream text, same terracotta accent */
+body[data-dsh-claude-code][data-ds-dark-theme] {
+  --dsw-alias-brand-primary: #da7756;
+  --dsw-alias-brand-primary-invert: #1d1b16;
+  --dsw-alias-brand-primary-new-colorprimary-new-color: #da7756;
+  --dsw-alias-brand-text: #e89c81;
+
+  --dsw-alias-state-success-primary: #3ddc72;
+  --dsw-alias-state-error-primary: #ff7a55;
+  --dsw-alias-state-warn-primary: #d99a7e;
+
+  --dsw-alias-bg-base: #1d1b16;
+  --dsw-alias-bg-layer-1: #262119;
+  --dsw-alias-bg-layer-2: #2e2820;
+  --dsw-alias-bg-layer-3: #353028;
+
+  --dsw-alias-label-primary: #f5f3ee;
+  --dsw-alias-label-primary-foreground: #f5f3ee;
+  --dsw-alias-label-primary-bluish: #f5f3ee;
+  --dsw-alias-label-primary-dimmed: #d6cfc4;
+  --dsw-alias-label-primary-inverted: #1d1b16;
+  --dsw-alias-label-dimmed: #b8b0a4;
+  --dsw-alias-label-caption: #8a8277;
+
+  --dsw-alias-border-l1: #4a4236;
+  --dsw-alias-border-l2: #57503f;
+  --dsw-alias-border-l3: #6b6250;
+  --dsw-alias-border-l4: #7d7360;
+  --dsw-alias-border-inverted: #f5f3ee;
+  --dsw-alias-border-inverted2: #f5f3ee;
+
+  --dsw-alias-interactive-bg-hover: #353028;
+  --dsw-alias-interactive-bg-active: #3f3a30;
+  --dsw-alias-interactive-bg-hover-accent: rgba(218, 119, 86, 0.18);
+  --dsw-alias-interactive-bg-hover-solid: rgba(218, 119, 86, 0.28);
+
+  --dsw-alias-button-primary-fill: #da7756;
+  --dsw-alias-button-primary-hover: #e08a6a;
+  --dsw-alias-button-primary-dimmed: rgba(218, 119, 86, 0.26);
+  --dsw-alias-button-elevated-fill: #2e2820;
+  --dsw-alias-button-floating-fill: #2e2820;
+  --dsw-alias-button-tool-bar-fill: #1d1b16;
+  --dsw-alias-button-contrast-fill: #f5f3ee;
+
+  color: #f5f3ee;
+  background-color: #1d1b16;
+}
+
+/* terminal-window title bar */
+body[data-dsh-claude-code] .titlebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  height: 32px;
+  padding: 0 12px;
+  gap: 6px;
+  background: #f5f3ee;
+  border-bottom: 1px solid #d8d2c9;
+  color: #1d1b16;
+  font-family: "思源宋体 VF", "Source Han Serif SC VF", "思源宋体", "Songti SC", serif;
+  font-size: 12px;
+}
+
+body[data-dsh-claude-code][data-ds-dark-theme] .titlebar {
+  background: #262119;
+  border-bottom: 1px solid #4a4236;
+  color: #f5f3ee;
+}
+
+/* macOS terminal window dots (red / yellow / green) */
+body[data-dsh-claude-code] .dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  flex: none;
+}
+
+body[data-dsh-claude-code] .dot-red {
+  background: #ff5f56;
+}
+
+body[data-dsh-claude-code] .dot-yellow {
+  background: #ffbd2e;
+}
+
+body[data-dsh-claude-code] .dot-green {
+  background: #27c93f;
+}
+
+body[data-dsh-claude-code] .title {
+  margin-left: 8px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+/* SF Mono for code surfaces */
+body[data-dsh-claude-code] pre,
+body[data-dsh-claude-code] code,
+body[data-dsh-claude-code] kbd {
+  font-family: "SF Mono", "SFMono-Regular", Menlo, Consolas, monospace;
+}
+
+body[data-dsh-claude-code] pre {
+  background: #f1eee8;
+  border: 1px solid #d8d2c9;
+  border-radius: 6px;
+}
+
+body[data-dsh-claude-code][data-ds-dark-theme] pre {
+  background: #171510;
+  border-color: #4a4236;
+}
+
+/* terracotta selection */
+body[data-dsh-claude-code] ::selection {
+  background: rgba(218, 119, 86, 0.32);
+}
+
+/* warm scrollbars for the dark terminal feel */
+body[data-dsh-claude-code][data-ds-dark-theme] ::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+body[data-dsh-claude-code][data-ds-dark-theme] ::-webkit-scrollbar-thumb {
+  background: #4a4236;
+  border-radius: 5px;
+}
+
+body[data-dsh-claude-code][data-ds-dark-theme] ::-webkit-scrollbar-thumb:hover {
+  background: #6b6250;
+}
+
+body[data-dsh-claude-code][data-ds-dark-theme] ::-webkit-scrollbar-track {
+  background: #1d1b16;
+}

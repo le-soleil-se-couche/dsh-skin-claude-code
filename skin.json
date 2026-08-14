@@ -1,0 +1,28 @@
+{
+  "id": "claude-code",
+  "name": "Claude Code",
+  "nameEn": "Claude Code Terminal",
+  "author": "le-soleil-se-couche",
+  "tagline": "暖陶土橙 · 奶油纸面 · 思源宋体 + SF Mono",
+  "description": "Codex 暖光配色版 Claude Code 皮肤：陶土橙强调 #DA7756、奶油纸面 #F5F3EE、暖黑正文 #1D1B16，UI 用思源宋体 VF、代码用 SF Mono，配终端窗口式标题栏（红黄绿三圆点）。",
+  "tags": [
+    "claude-code",
+    "codex",
+    "warm",
+    "light",
+    "terracotta",
+    "serif"
+  ],
+  "accent": "#DA7756",
+  "bodyAttr": "data-dsh-claude-code",
+  "package": "@deepseek-ai/dsh-client-ui-skin-claude-code",
+  "wiring": {
+    "id": "ui-skin-claude-code",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "packages/skins/claude-code/preview/light.png",
+    "dark": "packages/skins/claude-code/preview/dark.png"
+  },
+  "order": 9
+}
