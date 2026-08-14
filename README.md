@@ -1,12 +1,14 @@
 # dsh-skin-claude-code
 
-DeepSeek Harness (dsh) Web GUI 皮肤插件：Claude Code 风格字体 + Codex 暖光配色。
-将 Codex 中验证过的主题（codex-theme-v1）复制为 dsh 皮肤：陶土橙 #DA7756、奶油纸面 #F5F3EE、
-暖黑正文 #1D1B16，UI 字体思源宋体 VF，代码字体 SF Mono，配终端窗口式标题栏。
+DeepSeek Harness (dsh) Web GUI 皮肤插件：Claude Code 风格界面 + Codex 暖光配色。
+配色与字体配置取自 Codex 主题（codex-theme-v1）：陶土橙 #DA7756、奶油纸面 #F5F3EE、
+暖黑正文 #1D1B16、UI 字体思源宋体 VF、代码字体 SF Mono，配终端窗口式标题栏，支持亮/暗双模式。
 
 ## 预览
 
-亮色：preview/light.png ｜ 暗色：preview/dark.png
+| 亮色 | 暗色 |
+| --- | --- |
+| ![light](preview/light.png) | ![dark](preview/dark.png) |
 
 ## 安装
 
@@ -23,4 +25,5 @@ DeepSeek Harness (dsh) Web GUI 皮肤插件：Claude Code 风格字体 + Codex �
     npm run build
 
 皮肤只依赖官方 NPM SDK（@deepseek-ai/cordis），不修改 DSH 源码；样式作用域限定在
-body[data-dsh-claude-code]，apply() 的全部写入在 dispose 时完整收回。
+body[data-dsh-claude-code]（暗色变体 body[data-dsh-claude-code][data-ds-dark-theme]），
+apply() 的全部写入在 dispose 时完整收回。
