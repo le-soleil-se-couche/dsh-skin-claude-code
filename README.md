@@ -8,6 +8,10 @@ DeepSeek Harness (dsh) Web GUI 皮肤插件：配色与字体配置取自 Codex 
 
 ## 展示
 
+配色与字体配置（Codex · codex-theme-v1）：
+
+    codex-theme-v1: {"codeThemeId":"absolutely","theme":{"accent":"#da7756","contrast":59,"fonts":{"code":"SF Mono","ui":"思源宋体 VF"},"ink":"#1d1b16","opaqueWindows":true,"semanticColors":{"diffAdded":"#00c853","diffRemoved":"#ff5f38","skill":"#cc7d5e"},"surface":"#f5f3ee"},"variant":"light"}
+
 ![Codex 配置](docs/codex-config.png)
 
 界面效果：
