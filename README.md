@@ -8,9 +8,9 @@ DeepSeek Harness (dsh) Web GUI 皮肤插件：配色与字体配置取自 Codex 
 
 ## 展示
 
-配色与字体配置（Codex · codex-theme-v1）：
+尽管 Anthropic 非常非常的不做人，尽管它封了我4个号，但是我仍然忘不掉去年年底的某一天打开 Claude Code 的那种震撼感。一个新的时代，借由它向我徐徐铺开。
 
-    codex-theme-v1: {"codeThemeId":"absolutely","theme":{"accent":"#da7756","contrast":59,"fonts":{"code":"SF Mono","ui":"思源宋体 VF"},"ink":"#1d1b16","opaqueWindows":true,"semanticColors":{"diffAdded":"#00c853","diffRemoved":"#ff5f38","skill":"#cc7d5e"},"surface":"#f5f3ee"},"variant":"light"}
+致敬最不会营销、最清白、最懂安全、最尊重版权、最不会蒸馏、最严于律己宽于待人、最喜欢给用户发福利、最不爱定制榜单、最不喜欢把模型降智给用户限流、最便宜、最喜欢人工维护、最不会全程让AI工作然后出岔子只会甩锅、最不会侵犯用户隐私然后倒打一耙限制蒸馏、最喜欢修bug然后补偿用户损失、最见的别人家好、最喜欢公平竞争、最讨厌装神弄鬼的 Anthropic！
 
 ![Codex 配置](docs/codex-config.png)
 
