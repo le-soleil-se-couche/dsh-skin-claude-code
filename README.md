@@ -8,6 +8,12 @@ DeepSeek Harness (dsh) Web GUI 皮肤插件：配色与字体配置取自 Codex 
 
 ## 展示
 
+配置来源（Codex · codex-theme-v1）：
+
+![Codex 配置](docs/codex-config.png)
+
+界面效果：
+
 ![dsh-skin-claude-code](preview/light.png)
 
 ## 安装
